@@ -10,13 +10,12 @@ public class HomeWork3 {
     public static void main(String[] args) {
 
 
-//        findSymbolOccurance("anton shevchenko", 'n');
-//        stringReverse("Anton");
-//        System.out.println(findWordPosition("Apollo", "llo"));
-//        System.out.println(isPalindrome("ere"));
-//        System.out.println(reverse("mone"));
-
+        findSymbolOccurance("anton shevchenko", 'n');
+        stringReverse("Anton");
+        System.out.println(findWordPosition("Apollo", "llo"));
+        System.out.println(isPalindrome("ere"));
         arrayWords();
+
     }
     public static void arrayWords () {
         Random random = new Random();
@@ -28,7 +27,6 @@ public class HomeWork3 {
         while (true) {
             String inputUser = scanner.nextLine().toLowerCase();
             String wordComputer = words[numberComputer];
-//            System.out.println(inputUser +" " + wordComputer);
 
             if (inputUser.equals(wordComputer)) {
                 System.out.println("Ви вгадали! Вітаю!!! :)");
@@ -51,11 +49,6 @@ public class HomeWork3 {
             }
         }
     }
-
-
-
-
-
 
 
 
